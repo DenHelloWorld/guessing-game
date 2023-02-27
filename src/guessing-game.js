@@ -8,6 +8,10 @@ class GuessingGame {
         return this.crntG;
     }
 
+    greater() {
+        this.min = this.crntG;
+    }
+
     
 }
 
