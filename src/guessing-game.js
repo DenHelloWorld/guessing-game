@@ -12,7 +12,13 @@ class GuessingGame {
         this.min = this.crntG;
     }
 
-    
+    lower() {
+        this.max = this.crntG;
+    }
+    setRange(min, max) {
+        this.min = min;
+        this.max = max;
+    }
 }
 
 module.exports = GuessingGame;
